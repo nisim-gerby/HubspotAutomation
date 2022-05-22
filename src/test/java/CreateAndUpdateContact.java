@@ -33,7 +33,7 @@ public class CreateAndUpdateContact {
 
     @Test
     public void updateAnExcitedContact() {
-        Properties p = new Properties("Gigya", randomMail + "@gmail.com", "Nisim", "Gigya", "(877) 929-0687", "sap.com");
+        Properties p = new Properties("Gigya", randomMail.toLowerCase(Locale.ROOT) + "@gmail.com", "Nisim", "Gigya", "(877) 929-0687", "http://sap.com");
         Data data = new Data(p);
 
         Response getContacts = RestServiceResource.get(Data.endPoint);
