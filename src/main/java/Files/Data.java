@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 public class Data {
 
-    public static String hapikey = "431090c1-ce61-4cfe-9f77-bbc0d38712df";
+    public static String hapikey = ""; // some api-key that you get from dev documentaion of HubSpot
     public static String contentType = "application/json";
     public static String endPoint = "/crm/v3/objects/contacts";
 
